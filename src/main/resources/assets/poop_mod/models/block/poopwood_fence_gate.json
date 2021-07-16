@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "poop_mod:blocks/poopwood_planks"
+  }
+}

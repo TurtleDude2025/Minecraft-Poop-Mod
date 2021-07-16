@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "poop_mod:block/poopfurnace"
+    },
+    "facing=east": {
+      "model": "poop_mod:block/poopfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "poop_mod:block/poopfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "poop_mod:block/poopfurnace",
+      "y": 270
+    }
+  }
+}

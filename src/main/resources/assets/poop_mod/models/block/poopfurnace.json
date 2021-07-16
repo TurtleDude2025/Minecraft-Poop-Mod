@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop_mod:blocks/poopfurnace1",
+    "up": "poop_mod:blocks/poopfurnace1",
+    "north": "poop_mod:blocks/poopfurnace3",
+    "east": "poop_mod:blocks/poopfurnace1",
+    "south": "poop_mod:blocks/poopfurnace1",
+    "west": "poop_mod:blocks/poopfurnace1",
+    "particle": "poop_mod:blocks/poopfurnace1"
+  }
+}

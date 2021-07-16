@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "poop_mod:blocks/poopwood_planks",
+    "particle": "poop_mod:blocks/poopwood_planks"
+  }
+}

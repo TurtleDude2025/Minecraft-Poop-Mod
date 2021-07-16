@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poop_mod:blocks/poopwood_log_top",
+    "up": "poop_mod:blocks/poopwood_log_top",
+    "north": "poop_mod:blocks/poopwood_log_side",
+    "east": "poop_mod:blocks/poopwood_log_side",
+    "south": "poop_mod:blocks/poopwood_log_side",
+    "west": "poop_mod:blocks/poopwood_log_side",
+    "particle": "poop_mod:blocks/poopwood_log_top"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PoopwoodWood"
+      },
+      {
+        "value": "CUSTOM:PoopwoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "poopwood_log",
+    "namespace": "forge"
+  }
+}

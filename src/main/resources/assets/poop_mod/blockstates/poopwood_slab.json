@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "poop_mod:block/poopwood_slab"
+    },
+    "type=top": {
+      "model": "poop_mod:block/poopwood_slab_top"
+    },
+    "type=double": {
+      "model": "poop_mod:block/poopwood_slab_full"
+    }
+  }
+}

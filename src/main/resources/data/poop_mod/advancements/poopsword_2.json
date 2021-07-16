@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "poop_mod:poop_sword"
+    },
+    "title": {
+      "translate": "advancements.poopsword_2.title"
+    },
+    "description": {
+      "translate": "advancements.poopsword_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "poopsword_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "poop_mod:poop_sword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "poop_mod:miningpoopore"
+}

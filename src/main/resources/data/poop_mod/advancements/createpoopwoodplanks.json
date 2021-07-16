@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "poop_mod:poopwood_planks"
+    },
+    "title": {
+      "translate": "advancements.createpoopwoodplanks.title"
+    },
+    "description": {
+      "translate": "advancements.createpoopwoodplanks.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "createpoopwoodplanks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "poop_mod:poopwood_planks",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "poop_mod:poopwood_stairs_recipe",
+      "poop_mod:poopwood_slab_recipe",
+      "poop_mod:poopwood_fence_recipe",
+      "poop_mod:poopwood_fence_gate_recipe",
+      "poop_mod:poopwood_stick_recipe"
+    ]
+  },
+  "parent": "poop_mod:pooptree"
+}

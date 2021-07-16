@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "poop_mod:block/poopdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "poop_mod:block/poopdimension_portal_ns"
+    }
+  }
+}

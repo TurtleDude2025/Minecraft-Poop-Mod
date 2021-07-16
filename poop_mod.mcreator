@@ -1,0 +1,641 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Poop",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop"
+    },
+    {
+      "name": "PoopOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_ore"
+    },
+    {
+      "name": "PoopBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_block"
+    },
+    {
+      "name": "PoopOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_ore_block_recipe"
+    },
+    {
+      "name": "PoopBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_block_ore_recipe"
+    },
+    {
+      "name": "PoopOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_ore_smelting"
+    },
+    {
+      "name": "PoopPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_pickaxe"
+    },
+    {
+      "name": "PoopAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_axe"
+    },
+    {
+      "name": "PoopSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_sword"
+    },
+    {
+      "name": "PoopShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_shovel"
+    },
+    {
+      "name": "PoopHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_hoe"
+    },
+    {
+      "name": "PoopPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_pickaxe_recipe"
+    },
+    {
+      "name": "PoopAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_axe_recipe"
+    },
+    {
+      "name": "PoopSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_sword_recipe"
+    },
+    {
+      "name": "PoopShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_shovel_recipe"
+    },
+    {
+      "name": "PoopHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_hoe_recipe"
+    },
+    {
+      "name": "PoopArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PoopArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_armor_helmet_recipe"
+    },
+    {
+      "name": "PoopArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_armor_body_recipe"
+    },
+    {
+      "name": "PoopArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_armor_leggings_recipe"
+    },
+    {
+      "name": "PoopArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poop_armor_boots_recipe"
+    },
+    {
+      "name": "Poopmod",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopmod"
+    },
+    {
+      "name": "Pigpoop",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pigpoop"
+    },
+    {
+      "name": "Pooppig",
+      "type": "mob",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooppig"
+    },
+    {
+      "name": "Poopdrink",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopdrink"
+    },
+    {
+      "name": "PoopwoodWood",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_wood"
+    },
+    {
+      "name": "PoopwoodLog",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_log"
+    },
+    {
+      "name": "PoopwoodPlanks",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_planks"
+    },
+    {
+      "name": "PoopwoodLeaves",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_leaves"
+    },
+    {
+      "name": "PoopwoodStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_stairs"
+    },
+    {
+      "name": "PoopwoodSlab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_slab"
+    },
+    {
+      "name": "PoopwoodFence",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_fence"
+    },
+    {
+      "name": "PoopwoodFenceGate",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_fence_gate"
+    },
+    {
+      "name": "PoopwoodItemsTag",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_items_tag"
+    },
+    {
+      "name": "PoopwoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_wood_recipe"
+    },
+    {
+      "name": "PoopwoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_planks_recipe"
+    },
+    {
+      "name": "PoopwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_stairs_recipe"
+    },
+    {
+      "name": "PoopwoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_slab_recipe"
+    },
+    {
+      "name": "PoopwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_fence_recipe"
+    },
+    {
+      "name": "PoopwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_fence_gate_recipe"
+    },
+    {
+      "name": "PoopwoodStickRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopwood_stick_recipe"
+    },
+    {
+      "name": "Poopbiome",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopbiome"
+    },
+    {
+      "name": "Poopdimension",
+      "type": "dimension",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopdimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Poophut",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poophut"
+    },
+    {
+      "name": "Miningpoopore",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miningpoopore"
+    },
+    {
+      "name": "Poopsword2",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopsword_2"
+    },
+    {
+      "name": "Poopshovel2",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopshovel_2"
+    },
+    {
+      "name": "Poopigniter",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopigniter"
+    },
+    {
+      "name": "Poopaxe2",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopaxe_2"
+    },
+    {
+      "name": "Pooppicaxe",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooppicaxe"
+    },
+    {
+      "name": "Poopblocj2",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopblocj_2"
+    },
+    {
+      "name": "Poopdimenstion",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopdimenstion"
+    },
+    {
+      "name": "Pooptree",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooptree"
+    },
+    {
+      "name": "Killpooppig",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killpooppig"
+    },
+    {
+      "name": "Poopyenchantment",
+      "type": "enchantment",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopyenchantment"
+    },
+    {
+      "name": "Createpoopwoodplanks",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "createpoopwoodplanks"
+    },
+    {
+      "name": "Pooptree1",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooptree_1"
+    },
+    {
+      "name": "Pooptree2",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pooptree_2"
+    },
+    {
+      "name": "Poopfurnace",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poopfurnace"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "pooppigsound",
+      "files": [
+        "latta_st"
+      ],
+      "category": "ambient",
+      "subtitle": "Oink"
+    },
+    {
+      "name": "pooppigdeath",
+      "files": [
+        "latta_st_2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.poop_mod.poopdrink": "Poop Drink",
+      "advancements.miningpoopore.descr": "Collecting Poop from the caves for the first time",
+      "advancements.poopshovel_2.descr": "Create a Poop Shovel",
+      "advancements.killpooppig.descr": "Kill a Poop Pig and collect its Poop",
+      "advancements.pooptree.descr": "Collect a Piece of Poop Wood",
+      "block.poop_mod.poopwood_fence": "Poop Wood Fence",
+      "advancements.miningpoopore.title": "You Got Poop",
+      "block.poop_mod.poop_block": "Block of Poop",
+      "block.poop_mod.poopwood_wood": "Poopwood Wood",
+      "item.poop_mod.poop_armor_boots": "Poop Boots",
+      "advancements.pooptree.title": "You Have Poop Wood",
+      "block.poop_mod.poopwood_slab": "Poop Wood Slab",
+      "advancements.poopaxe_2.descr": "Create a Poop Axe",
+      "advancements.pooppicaxe.title": "You Have a Poop Pickaxe",
+      "entity.poop_mod.pooppig": "Poop Pig",
+      "item.poop_mod.poop_armor_leggings": "Poop Leggings",
+      "item.poop_mod.poop_hoe": "Poop Hoe",
+      "subtitles.pooppigdeath": "",
+      "block.poop_mod.poop_ore": "Poop Ore",
+      "advancements.killpooppig.title": "You Killed a Poop Pig for its Poop",
+      "block.poop_mod.poopwood_stairs": "Poop Wood Stairs",
+      "subtitles.pooppigsound": "Oink",
+      "block.poop_mod.poopfurnace": "Poopfurnace",
+      "biome.poop_mod.poopbiome": "Poopbiome",
+      "item.poop_mod.poopdimension": "Poopdimension Portal Igniter",
+      "advancements.poopshovel_2.title": "You Have a Poop Shovel",
+      "block.poop_mod.poopwood_planks": "Poop Wood Planks",
+      "advancements.poopsword_2.descr": "Create a Poop Sword",
+      "block.poop_mod.poopwood_leaves": "Poop Wood Leaves",
+      "advancements.createpoopwoodplanks.title": "Collect Or Make Poop Wood Planks",
+      "advancements.poopblocj_2.title": "You Have a Block Of Poop",
+      "item.poop_mod.poop_armor_chestplate": "Poop Chestplate",
+      "enchantment.poop_mod.poopyenchantment": "Poopy Enchantment",
+      "advancements.poopaxe_2.title": "You Have a Poop Axe",
+      "block.poop_mod.poopwood_log": "Poop Wood Log",
+      "item.poop_mod.poop_shovel": "Poop Shovel",
+      "advancements.poopblocj_2.descr": "Create a Poop Block",
+      "item.poop_mod.poop_armor_helmet": "Poop Helmet",
+      "advancements.poopdimenstion.title": "Going to the Poop World",
+      "advancements.poopdimenstion.descr": "Go to the Poop Dimention",
+      "item.poop_mod.pigpoop": "Pig Poop",
+      "block.poop_mod.poopwood_fence_gate": "Poop Wood Fence Gate",
+      "item.poop_mod.poop": "Poop",
+      "item.poop_mod.poop_pickaxe": "Poop Pickaxe",
+      "advancements.poopsword_2.title": "You Have a Poop Sword",
+      "advancements.pooppicaxe.descr": "Create a Poop Pickaxe",
+      "itemGroup.tabpoopmod": "Poop Mod",
+      "item.poop_mod.poop_sword": "Poop Sword",
+      "advancements.createpoopwoodplanks.descr": "You Have to Craft or Collect Poop Wood Planks",
+      "item.poop_mod.poop_axe": "Poop Axe",
+      "item.poop_mod.pooppig_spawn_egg": "Poop Pig Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "poop_mod",
+    "modName": "Poop Mod",
+    "version": "1.0.0",
+    "author": "William, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.poopmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

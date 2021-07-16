@@ -1,0 +1,51 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "poop_mod:poop"
+    },
+    "title": {
+      "translate": "advancements.miningpoopore.title"
+    },
+    "description": {
+      "translate": "advancements.miningpoopore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "miningpoopore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "poop_mod:poop",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2,
+    "recipes": [
+      "poop_mod:poop_ore_block_recipe",
+      "poop_mod:poop_block_ore_recipe",
+      "poop_mod:poop_ore_smelting",
+      "poop_mod:poop_pickaxe_recipe",
+      "poop_mod:poop_axe_recipe",
+      "poop_mod:poop_sword_recipe",
+      "poop_mod:poop_shovel_recipe",
+      "poop_mod:poop_hoe_recipe",
+      "poop_mod:poop_armor_helmet_recipe",
+      "poop_mod:poop_armor_body_recipe",
+      "poop_mod:poop_armor_leggings_recipe",
+      "poop_mod:poop_armor_boots_recipe"
+    ]
+  }
+}

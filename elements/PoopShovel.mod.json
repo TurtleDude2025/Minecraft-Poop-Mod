@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "poop_shovel",
+    "customModelName": "Normal",
+    "name": "Poop Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Poopmod"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 1.0,
+    "usageCount": 125,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Poop"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

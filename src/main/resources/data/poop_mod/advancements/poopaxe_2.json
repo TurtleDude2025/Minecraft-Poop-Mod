@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "poop_mod:poop_axe"
+    },
+    "title": {
+      "translate": "advancements.poopaxe_2.title"
+    },
+    "description": {
+      "translate": "advancements.poopaxe_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "poopaxe_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "poop_mod:poop_axe",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "poop_mod:miningpoopore"
+}

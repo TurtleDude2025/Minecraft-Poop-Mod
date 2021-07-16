@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "poop_mod:poopwood_leaves"
+    },
+    "title": {
+      "translate": "advancements.poopdimenstion.title"
+    },
+    "description": {
+      "translate": "advancements.poopdimenstion.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "poopdimenstion": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "poop_mod:poopdimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "poop_mod:poopblocj_2"
+}

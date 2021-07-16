@@ -1,0 +1,21 @@
+{
+  "pooppigsound": {
+    "category": "ambient",
+    "subtitle": "subtitles.pooppigsound",
+    "sounds": [
+      {
+        "name": "poop_mod:latta_st",
+        "stream": false
+      }
+    ]
+  },
+  "pooppigdeath": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "poop_mod:latta_st_2",
+        "stream": false
+      }
+    ]
+  }
+}

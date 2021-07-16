@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "poop_mod:blocks/poopwood_leaves",
+    "particle": "poop_mod:blocks/poopwood_leaves"
+  }
+}

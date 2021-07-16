@@ -1,0 +1,24 @@
+{
+  "group": "poop_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "poop_mod:poop"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "poop_mod:poop_shovel",
+    "count": 1
+  }
+}

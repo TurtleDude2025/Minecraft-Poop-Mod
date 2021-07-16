@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "poop_axe",
+    "customModelName": "Normal",
+    "name": "Poop Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Poopmod"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 3.0,
+    "usageCount": 125,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Poop"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "poop_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:poopwood_log"
+    }
+  ],
+  "result": {
+    "item": "poop_mod:poopwood_planks",
+    "count": 4
+  }
+}

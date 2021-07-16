@@ -1,0 +1,22 @@
+{
+  "group": "poop_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "poop_mod:poopwood_planks"
+    },
+    "1": {
+      "item": "poop_mod:poopwood_planks"
+    },
+    "2": {
+      "item": "poop_mod:poopwood_planks"
+    }
+  },
+  "result": {
+    "item": "poop_mod:poopwood_slab",
+    "count": 6
+  }
+}

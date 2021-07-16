@@ -1,0 +1,12 @@
+{
+  "group": "poop_mod",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "poop_mod:poop_ore"
+  },
+  "result": {
+    "item": "poop_mod:poop"
+  }
+}

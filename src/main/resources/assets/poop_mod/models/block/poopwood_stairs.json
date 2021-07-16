@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "poop_mod:blocks/poopwood_planks",
+    "top": "poop_mod:blocks/poopwood_planks",
+    "side": "poop_mod:blocks/poopwood_planks"
+  }
+}
