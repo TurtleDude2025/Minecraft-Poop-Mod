@@ -20,7 +20,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Item;
-import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -34,6 +33,7 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.poopmod.itemgroup.PoopmodItemGroup;
@@ -42,9 +42,9 @@ import net.mcreator.poopmod.PoopModModElements;
 
 @PoopModModElements.ModElement.Tag
 public class PoopsheepEntity extends PoopModModElements.ModElement {
-	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("poopsheep").setRegistryName("poopsheep");
+			.size(0.9f, 1.4f)).build("poopsheep").setRegistryName("poopsheep");
 	public PoopsheepEntity(PoopModModElements instance) {
 		super(instance, 60);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PoopsheepRenderer.ModelRegisterHandler());
@@ -66,13 +66,14 @@ public class PoopsheepEntity extends PoopModModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 20, 1, 2));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				MonsterEntity::canMonsterSpawn);
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 	private static class EntityAttributesRegisterHandler {
 		@SubscribeEvent
@@ -95,7 +96,6 @@ public class PoopsheepEntity extends PoopModModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
-			enablePersistence();
 		}
 
 		@Override
@@ -116,11 +116,6 @@ public class PoopsheepEntity extends PoopModModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
-		}
-
-		@Override
-		public boolean canDespawn(double distanceToClosestPlayer) {
-			return false;
 		}
 
 		@Override

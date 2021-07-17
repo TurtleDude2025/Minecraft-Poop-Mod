@@ -4,11 +4,11 @@
   "definition": {
     "mobName": "Poop Sheep",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Cow",
     "mobModelTexture": "poop_sheep.png",
     "mobModelGlowTexture": "poop_sheep.png",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelWidth": 0.9,
+    "modelHeight": 1.4,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -110,11 +110,11 @@
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": false,
+    "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Poopbiome"

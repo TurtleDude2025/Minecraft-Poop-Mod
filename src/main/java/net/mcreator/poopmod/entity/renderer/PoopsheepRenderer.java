@@ -10,11 +10,10 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.entity.model.BipedModel;
+import net.minecraft.client.renderer.entity.model.CowModel;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
-import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.IEntityRenderer;
-import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 
@@ -29,17 +28,16 @@ public class PoopsheepRenderer {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
-			RenderingRegistry.registerEntityRenderingHandler(PoopsheepEntity.entity, renderManager -> {
-				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
-					@Override
-					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("poop_mod:textures/poop_sheep.png");
-					}
-				};
-				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
-				customRender.addLayer(new GlowingLayer<>(customRender));
-				return customRender;
-			});
+			RenderingRegistry.registerEntityRenderingHandler(PoopsheepEntity.entity,
+					renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
+						{
+							this.addLayer(new GlowingLayer<>(this));
+						}
+						@Override
+						public ResourceLocation getEntityTexture(Entity entity) {
+							return new ResourceLocation("poop_mod:textures/poop_sheep.png");
+						}
+					});
 		}
 	}
 
